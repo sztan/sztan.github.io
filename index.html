@@ -1,28 +1,228 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Bootstrap 101 Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanislas Paliard : resume</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
-    <![endif]-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <div class="container">
+    <div id="title" class="text-center row mb-4">
+            <div class="col-sm-3">&nbsp;</div>
+            <div class="col-sm-6">
+                <span class="display-5 fullname">Stanislas Paliard</span><br></br>
+                <span class="display-6 main_job_title">Web Developer</span>
+            </div>
+        <div class="col-sm-3"><br>
+            <div style="border: 1px solid black; background-color: #7FB3D5; float:left; width:32px; height:32px;" class="m-2 rounded-circle">&nbsp;</div>
+            <div style="border: 1px solid black; background-color: #D5DBDB; float:left; width:32px; height:32px;" class="m-2 rounded-circle">&nbsp;</div>
+            <div style="border: 1px solid black; background-color: #FDFEFE; float:left; width:32px; height:32px;" class="m-2 rounded-circle">&nbsp;</div>
+        </div>
+    </div>
+    <div class="row mb-3" id="short_text">
+        <div class="font-monospace">
+            Hello, voici mon CV :-) Je code principalement en <span class="skills">PhP</span>, <span
+                class="skills">HTML</span>, <span
+                class="skills">CSS</span>, <span class="skills">JS</span> et <span
+                class="skills">JQuery</span>.
+            J'ai également de bonnes notions sur <span class="skills">React</span>, <span
+                class="skills">Vue</span> ou <span class="skills">Angular</span>.
+            En PhP j'ai travaillé sur différents socles : <span class="skills">CodeIgniter</span>,
+            <span class="skills">Symfony</span>, <span class="skills">Zend</span>,
+            des framework maison, du code 'legacy'.
+            Au besoin, et pour le plaisr, je m'amuse aussi avec des librairies comme <span
+                class="skills">vanilla-tilt.js</span>, <span class="skills">popper.js</span>.
+        </div>
+    </div>
+
+    <div class="row mb-3" id="jobs">
+
+        <!-- Orange -->
+        <div class="row mb-2 job_header">
+            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2019-11 -> aujourd'hui</div>
+            <div class="col-sm-2 fw-bold d-flex align-items-center enterprise fs-3 text-uppercase">Orange</div>
+            <div class="col-sm-8 d-flex align-items-center job_title fs-2">Développements et MOA chez Orange</div>
+        </div>
+        <div class="row job_content">
+            <div class="col-sm-4 projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-light border rounded">
+                        <span>modernisation</span>
+                        <ul>
+                            <li> migrations <span class="skills">php5.3</span> vers <span
+                                    class="skills">php7.2</span></li>
+                            <li>migration <span class="skills">svn</span> vers <span
+                                    class="skills">git</span></li>
+                            <li>modernisation des job <span class="skills">Jenkins</span> de
+                                déploiement
+                            </li>
+                            <li>adaptations de scripts <span class="skills">bash</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-light border rounded">
+                        <span>rénovation d'un application en php5.3 'legacy' :</span>
+                        <ul>
+                            <li>passage vers un framework à base de composants <span
+                                    class="skills">Zend</span>
+                                et <span class="skills">Symfony</span> en <span
+                                        class="skills">php7.2</span></li>
+                            <li>mise en place d'une solution conteneurisée en mode <span
+                                    class="skills">PaaS</span> : <span
+                                    class="skills">cloudfoundry</span></li>
+                            <li>établissement de contrats d'interfaces avec des <span class="skills">API</span>
+                                ou services tiers (<span class="skills">EDI</span>, consommations de
+                                <span class="skills">webservices</span>)
+                            </li>
+                            <li>mise en place d'une base de données MariaDB 10.3.13 en mode IaaS avec connexion
+                                sécurisée en <span class="skills">SSH</span> 1-Way
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-light border rounded">
+                        <span>développements backend / frontend</span>
+                        <ul>
+                            <li>écriture et ordonnancement d'uns synchronisation par fichiers vers notre base de données
+                                (<span class="skills">bash</span>, raw insert <span
+                                        class="skills">SQL</span>)
+                            </li>
+                            <li>module de recherche dans l'annuaire interne (<span
+                                    class="skills">PHP</span>, <span class="skills">JQueryUI</span>)
+                            </li>
+                            <li>pages web de consultations(<span class="skills">Bootstrap</span>,
+                                <span class="skills">JQueryUI</span>)
+                            </li>
+                            <li>conception et développement d'un système de diffusion d'évènements par mail et SMS
+                                (<span class="skills">SQL</span>, <span
+                                        class="skills">PhP</span>)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mister Auto -->
+        <div class="row mb-2 job_header">
+            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2017-07 -> 2019-11</div>
+            <div class="col-sm-2 d-flex fw-bold align-items-center enterprise fs-3 text-uppercase">Mister Auto</div>
+            <div class="col-sm-8 d-flex align-items-center job_title fs-2">Développements PhP</div>
+        </div>
+        <div class="row job_content">
+            <div class="col-sm-4 projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-light border rounded">
+                        <span><span class="skills">SEO</span> - amélioration du référencement</span>
+                        <ul>
+                            <li>développement de nouvelles urls seo-friendly</li>
+                            <li>création d'un générateur de sitemap sélectif en fonction de typologies en entrée</li>
+                            <li>évolutions sur le datalayer (<span class="skills">google tag manager</span>)</li>
+                            </lu>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-light border rounded">
+                        <span>Développements sur le site Web</span>
+                        <ul>
+                            <li>refonte du sélecteur chaînes à neige avec ajout de la compatibilité véhicule
+                                garantie(<span class="skills">HTML</span>, <span class="skills">JS</span>, <span
+                                        class="skills">JQuery</span>)
+                            </li>
+                            <li>limitation des incréments article panier en fonction des stocks</li>
+                            <li>implémentation de market places</li>
+                            <li>harmonisation css du checkout</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
 
 
 </div>
 
+<div class="row">
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+    <div class="col-sm-3"><span class="skills">skill</span></div>
+</div>
+<div class="row">
+    <div class="col-sm">
+        The most significant things we can think about, when we think about Apollo, is that it has opened
+        for us,
+        for us being the World, a challenge of the future. The door is now cracked, but the promise of that
+        future
+        lies in the young people, not just in America, but the young people all over the world. Learning to
+        live and
+        learning to work together. In order to remind all the peoples of the World, in so many countries
+        throughout
+        the world, that this is what we all are striving for in the future, Jack has picked up a very
+        significant
+        rock, typical of what we have here in the valley of Taurus Littrow. It's a rock composed of many
+        fragments,
+        of many sizes, and many shapes, probably from all parts of the Moon, perhaps billions of years old.
+        But a
+        rock of all sizes and shapes, fragments of all sizes and shapes, and even colors that have grown
+        together to
+        become a cohesive rock outlasting the nature of Space, sort of living together in a very coherent,
+        very
+        peaceful manner. When we return this rock or some of the others like it to Houston, we'd like to
+        share a
+        piece of this rock with so many of the countries throughout the world. We hope that this will be a
+        symbol of
+        what our feelings are, what the feelings of the Apollo Program are, and a symbol of mankind that we
+        can live
+        in peace and harmony in the future.
+    </div>
+</div>
+</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- at the end of the body -->
+
+<script src="index.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script src="my_tilt.js"></script>
+
 </body>
 </html>
+
