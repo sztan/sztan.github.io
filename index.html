@@ -22,17 +22,50 @@
 <body>
 <div class="container">
     <div id="title" class="text-center row mb-4">
-            <div class="col-sm-3">&nbsp;</div>
-            <div class="col-sm-6">
-                <span class="display-5 fullname">Stanislas Paliard</span><br></br>
-                <span class="display-6 main_job_title">Web Developer</span>
-            </div>
+        <div class="col-sm-3">&nbsp;</div>
+        <div class="col-sm-6">
+            <span class="display-5 fullname">Stanislas Paliard</span><br></br>
+            <span class="display-6 main_job_title bg-custom-2_1">Web Developer</span>
+        </div>
         <div class="col-sm-3"><br>
-            <div style="border: 1px solid black; background-color: #7FB3D5; float:left; width:32px; height:32px;" class="m-2 rounded-circle">&nbsp;</div>
-            <div style="border: 1px solid black; background-color: #D5DBDB; float:left; width:32px; height:32px;" class="m-2 rounded-circle">&nbsp;</div>
-            <div style="border: 1px solid black; background-color: #FDFEFE; float:left; width:32px; height:32px;" class="m-2 rounded-circle">&nbsp;</div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div style="border: 1px solid black; background-color: #d5eeff; float:left; width:32px; height:32px;"
+                         class="carousel-item active m-2 rounded-circle color-switch" data-switch="bg-custom-1">&nbsp;
+                    </div>
+                    <div style="border: 1px solid black; background-color:  #EAEDED ; float:left; width:32px; height:32px;"
+                         class="carousel-item m-2 rounded-circle color-switch" data-switch="bg-custom-2">&nbsp;
+                    </div>
+                    <div style="border: 1px solid black; background-color: #FDFEFE; float:left; width:32px; height:32px;"
+                         class="carousel-item m-2 rounded-circle color-switch" data-switch="bg-custom-3">&nbsp;
+                    </div>
+                </div>
+            </div>
+
+
+            <!--            <div style="border: 1px solid black; background-color: #d5eeff; float:left; width:32px; height:32px;"-->
+            <!--                 class="m-2 rounded-circle color-switch" data-switch="bg-custom-1">&nbsp;-->
+            <!--            </div>-->
+            <!--            <div style="border: 1px solid black; background-color:  #EAEDED ; float:left; width:32px; height:32px;"-->
+            <!--                 class="m-2 rounded-circle color-switch" data-switch="bg-custom-2">&nbsp;-->
+            <!--            </div>-->
+            <!--            <div style="border: 1px solid black; background-color: #FDFEFE; float:left; width:32px; height:32px;"-->
+            <!--                 class="m-2 rounded-circle color-switch" data-switch="bg-custom-3">&nbsp;-->
+            <!--            </div>-->
         </div>
     </div>
+    <div class="row mb-3">
+
+
+        <form>
+            <div class="form-group">
+                <label for="formControlRange">Example Range input</label>
+                <input type="range" class="form-control-range" id="formControlRange">
+            </div>
+        </form>
+    </div>
+
     <div class="row mb-3" id="short_text">
         <div class="font-monospace">
             Hello, voici mon CV :-) Je code principalement en <span class="skills">PhP</span>, <span
@@ -53,14 +86,20 @@
 
         <!-- Orange -->
         <div class="row mb-2 job_header">
-            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2019-11 -> aujourd'hui</div>
-            <div class="col-sm-2 fw-bold d-flex align-items-center enterprise fs-3 text-uppercase">Orange</div>
-            <div class="col-sm-8 d-flex align-items-center job_title fs-2">Développements et MOA chez Orange</div>
+            <div class="col-sm-1"><img class="rounded img-thumbnail" alt="logo orange"
+                                       src="./239px-Orange_logo.svg.png"></div>
+            <div class="col-sm-2">
+                <div class="row fs-6 job_dates">2019-11 -> aujourd'hui</div>
+                <div class="row fs-3 text-uppercase fw-bold">Orange</div>
+            </div>
+            <!--            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2019-11 -> aujourd'hui</div>-->
+            <!--            <div class="col-sm-2 fw-bold d-flex align-items-center enterprise fs-3 text-uppercase">Orange</div>-->
+            <div class="col-sm-7 d-flex align-items-center job_title fs-2">Développements et MOA</div>
         </div>
         <div class="row job_content">
             <div class="col-sm-4 projet">
                 <div class="mb-2">
-                    <div class="p-2 bg-light border rounded">
+                    <div class="p-2 bg-custom-2 border rounded">
                         <span>modernisation</span>
                         <ul>
                             <li> migrations <span class="skills">php5.3</span> vers <span
@@ -78,10 +117,10 @@
             </div>
             <div class="col-sm-4  projet">
                 <div class="mb-2">
-                    <div class="p-2 bg-light border rounded">
+                    <div class="p-2 bg-custom-2 border rounded">
                         <span>rénovation d'un application en php5.3 'legacy' :</span>
                         <ul>
-                            <li>passage vers un framework à base de composants <span
+                            <li>migration vers un framework à base de composants <span
                                     class="skills">Zend</span>
                                 et <span class="skills">Symfony</span> en <span
                                         class="skills">php7.2</span></li>
@@ -101,7 +140,7 @@
             </div>
             <div class="col-sm-4  projet">
                 <div class="mb-2">
-                    <div class="p-2 bg-light border rounded">
+                    <div class="p-2 bg-custom-2 border rounded">
                         <span>développements backend / frontend</span>
                         <ul>
                             <li>écriture et ordonnancement d'uns synchronisation par fichiers vers notre base de données
@@ -126,14 +165,20 @@
 
         <!-- Mister Auto -->
         <div class="row mb-2 job_header">
-            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2017-07 -> 2019-11</div>
-            <div class="col-sm-2 d-flex fw-bold align-items-center enterprise fs-3 text-uppercase">Mister Auto</div>
+            <div class="col-sm-1"><img class="rounded img-thumbnail" alt="logo mister auto" src="./mister-auto.svg">
+            </div>
+            <div class="col-sm-2">
+                <div class="row fs-6 job_dates">2017-07 -> 2019-11</div>
+                <div class="row fs-3 text-uppercase fw-bold">Mister Auto</div>
+            </div>
+            <!--            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2017-07 -> 2019-11</div>-->
+            <!--            <div class="col-sm-2 d-flex fw-bold align-items-center enterprise fs-3 text-uppercase">Mister Auto</div>-->
             <div class="col-sm-8 d-flex align-items-center job_title fs-2">Développements PhP</div>
         </div>
         <div class="row job_content">
             <div class="col-sm-4 projet">
                 <div class="mb-2">
-                    <div class="p-2 bg-light border rounded">
+                    <div class="p-2 bg-custom-2 border rounded">
                         <span><span class="skills">SEO</span> - amélioration du référencement</span>
                         <ul>
                             <li>développement de nouvelles urls seo-friendly</li>
@@ -147,7 +192,54 @@
             </div>
             <div class="col-sm-4 projet">
                 <div class="mb-2">
-                    <div class="p-2 bg-light border rounded">
+                    <div class="p-2 bg-custom-2 border rounded">
+                        <span>Développements sur le site Web</span>
+                        <ul>
+                            <li>refonte du sélecteur chaînes à neige avec ajout de la compatibilité véhicule
+                                garantie(<span class="skills">HTML</span>, <span class="skills">JS</span>, <span
+                                        class="skills">JQuery</span>)
+                            </li>
+                            <li>limitation des incréments article panier en fonction des stocks</li>
+                            <li>implémentation de market places</li>
+                            <li>harmonisation css du checkout</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Akanea -->
+        <div class="row mb-2 job_header">
+            <div class="col-sm-1"><img class="rounded img-thumbnail" alt="logo Akanea" src="./akanea.png"></div>
+            <div class="col-sm-2">
+                <div class="row fs-6 job_dates">...</div>
+                <div class="row fs-3 text-uppercase fw-bold">Akanea</div>
+            </div>
+            <!--            <div class="col-sm-2 fs-6 d-flex align-items-center job_dates">2017-07 -> 2019-11</div>-->
+            <!--            <div class="col-sm-2 d-flex fw-bold align-items-center enterprise fs-3 text-uppercase">Mister Auto</div>-->
+            <div class="col-sm-8 d-flex align-items-center job_title fs-2">Développements Oracle PL/SQL</div>
+        </div>
+        <div class="row job_content">
+            <div class="col-sm-4 projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-custom-2 border rounded">
+                        <span><span class="skills">SEO</span> - amélioration du référencement</span>
+                        <ul>
+                            <li>développement de nouvelles urls seo-friendly</li>
+                            <li>création d'un générateur de sitemap sélectif en fonction de typologies en entrée</li>
+                            <li>évolutions sur le datalayer (<span class="skills">google tag manager</span>)</li>
+                            </lu>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 projet">
+                <div class="mb-2">
+                    <div class="p-2 bg-custom-2 border rounded">
                         <span>Développements sur le site Web</span>
                         <ul>
                             <li>refonte du sélecteur chaînes à neige avec ajout de la compatibilité véhicule

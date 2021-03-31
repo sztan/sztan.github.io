@@ -1,9 +1,53 @@
 #title {
-    font-family: 'Train One', cursive;
+    font-family : 'Train One', cursive;
 }
 
 #title .main_job_title {
-    background-color:black;
-    color:white;
+    color            : white;
+}
 
+body {
+    font-size : .8em;
+}
+
+span.skills {
+    cursor : crosshair;
+}
+
+.highlight-1 {
+    border : 5px dotted lime !important;
+}
+
+.bg-custom-1 {
+    background-color : #d5eeff!important;
+}
+
+.bg-custom-1_1 {
+    background-color : #0a89df!important;
+    color            : white;
+}
+
+.bg-custom-2 {
+    background-color : #EAEDED!important;
+}
+
+.bg-custom-2_1 {
+    background-color : #000000!important;
+    color            : white;
+}
+
+.bg-custom-3 {
+    background-color : #FDFEFE!important;
+}
+.bg-custom-3_1 {
+    background-color : #d7dadd!important;
+    color            : black;
+}
+
+.color-switch:hover {
+    cursor: pointer;
+}
+
+.carousel-item {
+    transition: -webkit-transform 2s ease;
 }
