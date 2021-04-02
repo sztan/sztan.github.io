@@ -1,4 +1,4 @@
-###### _aller à la version en français [ici](/ "version française")._
+_aller à la version en français [ici](/ "version française")._
 
 ## Stanislas Paliard
 ### Développeur
