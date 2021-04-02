@@ -1,4 +1,5 @@
 > aller à la version en français [ici](/ "version française").
+
 ## Stanislas Paliard
 ### Développeur
 
