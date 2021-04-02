@@ -1,4 +1,4 @@
-> aller à la version en français [ici](/ "version française").
+###### _aller à la version en français [ici](/ "version française")._
 
 ## Stanislas Paliard
 ### Développeur
@@ -11,7 +11,9 @@
 > J'interviens tant dans la phase de spécification que dans celle de développement.
 > Bonne lecture :-)
 
+&nbsp;  
 **WOW ! Seems I havn't translated it yet 🤭 !**
+
 &nbsp;  
 nov 2019 -> aujourd'hui : **CONCEPTEUR DÉVELOPPEUR CHEZ _ORANGE_**  
 &nbsp;  

@@ -1,4 +1,4 @@
-> you can go the english version [here](/en "english version").
+###### _you can go the english version [here](/en "english version")._
 
 ## Stanislas Paliard
 ### Développeur
