@@ -13,6 +13,7 @@
 nov 2019 -> aujourd'hui : **CONCEPTEUR DÉVELOPPEUR CHEZ _ORANGE_**  
 &nbsp;  
 ![logo orange](../239px-Orange_logo.svg.png "Orange, société française de télécommunications")
+![logo orange](//239px-Orange_logo.svg.png "Orange, société française de télécommunications")
 
 * modernisation des process de déploiement
 * migrations php
