@@ -3,6 +3,8 @@ _you can go the english version [here](/en "english version")._
 ## Stanislas Paliard
 ### Développeur
 
+![stan_vignette](/stan_thumbnail.png "")
+
     Dernière actualisation: 2021-04-01T20:19:25.1454346Z
 
 > Hello, bienvenue sur mon CV.  
