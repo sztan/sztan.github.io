@@ -1,3 +1,4 @@
+> aller à la version en français [ici](/ "version française").
 ## Stanislas Paliard
 ### Développeur
 
@@ -13,7 +14,7 @@
 &nbsp;  
 nov 2019 -> aujourd'hui : **CONCEPTEUR DÉVELOPPEUR CHEZ _ORANGE_**  
 &nbsp;  
-![logo orange](../239px-Orange_logo.svg.png "Orange, société française de télécommunications")
+![logo orange](/239px-Orange_logo.svg.png "Orange, société française de télécommunications")
 
 * modernisation des process de déploiement
 * migrations php
@@ -41,7 +42,7 @@ _Exemple de réalisations :_
 &nbsp;  
 jul 2017 -> oct 2019 : **INGÉNIEUR RÉALISATEUR CHEZ _MISTER AUTO_**  
 &nbsp;  
-![logo mister-auto](../mister-auto.png "Mister Auto, entreprise française de commerce électronique spécialisée dans la vente de pièces détachées automobiles")
+![logo mister-auto](/mister-auto.png "Mister Auto, entreprise française de commerce électronique spécialisée dans la vente de pièces détachées automobiles")
 * assurer l'évolution de la partie legacy (cohabitation de 2 socles techniques)
 * développements front/back en php pour les sites web desktop et mobile
 * développement d'APIs (fournir des données au nouveau socle)
@@ -71,7 +72,7 @@ _Exemple de réalisations :_
 &nbsp;  
 apr 2012 -> sep 2015 : **DÉVELOPPEUR SQL/SQR CHEZ AKANEA**  
 &nbsp;  
-![logo akanea](../akanea.png "Editeur de logiciels spécialisés pour la supply-chain")
+![logo akanea](/akanea.png "Editeur de logiciels spécialisés pour la supply-chain")
 * développement Oracle PL/SQL
 * développements sqr
 * analyse fonctionnelle et technique
@@ -105,5 +106,5 @@ Et avant tout cela ? (et maintenant encore !) De nombreuses autres vies !...
 * vélomane
 * ...
 
-![portrait Stan](../stan.png "moi")  
+![portrait Stan](/stan.png "moi")  
 
