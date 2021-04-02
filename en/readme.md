@@ -104,7 +104,7 @@ Et avant tout cela ? (et maintenant encore !) De nombreuses autres vies !...
 * visionneur
 * nageur
 * débroussailleur
-* livreur de pizzas
+* ~~livreur~~ ~~mangeur~~ livreur de pizzas
 * geek
 * amoureux de la nature
 * vélomane
