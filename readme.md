@@ -99,6 +99,7 @@ Et avant tout cela ? (et maintenant encore !) De nombreuses autres vies !...
 * lecteur
 * consommateur
 * visionneur
+* nageur
 * débroussailleur
 * livreur de pizzas
 * geek
