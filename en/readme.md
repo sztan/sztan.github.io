@@ -1,4 +1,4 @@
-_aller à la version en français [ici](/ "version française")._
+![url_img](/link_img.png "my online resume") _aller à la version en français [ici](/ "version française")._
 
 ## Stanislas Paliard
 ### Développeur
