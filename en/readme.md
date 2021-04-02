@@ -3,8 +3,6 @@ _aller à la version en français [ici](/ "version française")._
 ## Stanislas Paliard
 ### Développeur
 
-![stan_thumbnail](/stan_thumbnail.png "")
-
     Dernière actualisation: 2021-04-01T20:19:25.1454346Z
 
 > Hello, bienvenue sur mon CV.  
