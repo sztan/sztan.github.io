@@ -31,22 +31,23 @@ nov 2019 -> aujourd'hui : **CONCEPTEUR DÉVELOPPEUR CHEZ _ORANGE_**
 >* Portails web
 >* chantiers de rénovations d'application
 
-_Technos :_ `git`, `php5.3`, `php7.2`, `php7.3`, `xml`, `MariaDB 10.3.13`, `HTML`, `CSS`, `JS`, `Bootstrap`, `JQuery`, `JQuery-UI`
-  `symfony 3`, `zend`, `oft (custom framework)`, `Jenkins`, `gitlab`, `gitlab ci/cd`, `terraform`, `cloudfoundry`, `amazon S3`, `supercronic`, `linux`, `docker`
+_Technos :_ `git`, `php5.3`, `php7.2`, `php7.3`, `docker`, `docker-compose`, `xml`, `MariaDB 10.3.13`, `HTML`, `CSS`, `JS`, `Bootstrap`, `JQuery`, `JQuery-UI`
+  `symfony 3`, `zend`, `oft (custom framework)`, `Jenkins`, `gitlab`, `gitlab ci/cd`, `terraform`, `cloudfoundry`, `amazon S3`, `supercronic`, `linux`
 
 _Exemple de réalisations :_
 * migration svn->git
 * migration php5.3->php7.2
 * installation, paramétrage et sécurisation d'un serveur MariaDB 10.3.13 en mode IaaS (redhat)  
-* dev module de recherche dans l'annuaire interne
+* développement d'un module de recherche dans l'annuaire interne
 * synchronisation de fichiers avec des partenaires, intégration en RAW insert SQL
 * conception et développement d'un système de diffusions d'évènements par mail et SMS
+* administration d'une application en mdoe PaaS avec cloudfoundry
 
 &nbsp;  
 jul 2017 -> oct 2019 : **INGÉNIEUR RÉALISATEUR CHEZ _MISTER AUTO_**  
 &nbsp;  
 ![logo mister-auto](/mister-auto.png "Mister Auto, entreprise française de commerce électronique spécialisée dans la vente de pièces détachées automobiles")
-* assurer l'évolution de la partie legacy (cohabitation de 2 socles techniques)
+* assurer l'évolution de la partie legacy du site (cohabitation de 2 socles techniques)
 * développements front/back en php pour les sites web desktop et mobile
 * développement d'APIs (fournir des données au nouveau socle)
 * contrôler la mise en recette de la partie legacy du site
@@ -60,9 +61,9 @@ jul 2017 -> oct 2019 : **INGÉNIEUR RÉALISATEUR CHEZ _MISTER AUTO_**
 _Technos :_ `HTML`, `XML`, `CSS`, `JS`, `CodeIgniter`, `Varnish`, `JQuery`, `Mysql 5.2`, `git`, `Ubuntu`, `docker`, `bash`
 
 _Exemple de réalisations :_
-* générateur de sitemaps paramétrables pour les 22 pays
+* générateur de sitemaps paramétrables pour les 22 pays du pure player
 * création d'une API fournisseur : bannières promotionnelles en temps réel
-* évolutions sur les comptes professionnels (gestion d'opérations dédiées)
+* évolutions sur les comptes professionnels (remise à plat des topologies, gestion d'opérations dédiées)
 * évolutions sur l'interface backoffice
 * refonte CSS du checkout
 * ajout d'un nouveau PSP
