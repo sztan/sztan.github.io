@@ -3,7 +3,7 @@ _aller à la version en français [ici](/ "version française")._
 ## Stanislas Paliard
 ### Développeur
 
-    Dernière actualisation: 2021-04-01T20:19:25.1454346Z
+    Dernière actualisation: 2021-05-11T08:07:54.5219739Z
 
 > Hello, bienvenue sur mon CV.  
 > Mon but est de vous donner une idée du scope de mes compétences et intérêts.
