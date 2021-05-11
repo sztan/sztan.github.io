@@ -34,11 +34,12 @@ _Technos :_ `git`, `php5.3`, `php7.2`, `php7.3`, `docker`, `docker-compose`, `xm
 _Exemple de réalisations :_
 * migration svn->git
 * migration php5.3->php7.2
-* installation, paramétrage et sécurisation d'un serveur MariaDB 10.3.13 en mode IaaS (redhat)  
+* installation, paramétrage et sécurisation d'un serveur MariaDB 10.3.13 en mode IaaS (redhat)
+* réécriture d'une application legacy -> zend + symfony
 * développement d'un module de recherche dans l'annuaire interne
 * synchronisation de fichiers avec des partenaires, intégration en RAW insert SQL
 * conception et développement d'un système de diffusions d'évènements par mail et SMS
-* administration d'une application en mdoe PaaS avec cloudfoundry
+* administration d'une application en mode PaaS avec cloudfoundry
 
 &nbsp;  
 jul 2017 -> oct 2019 : **INGÉNIEUR RÉALISATEUR CHEZ _MISTER AUTO_**  
